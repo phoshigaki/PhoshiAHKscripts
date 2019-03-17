@@ -1,5 +1,5 @@
 ;CapsLockの押し下げを検知
-$*CapsLock::
+*CapsLock::
 	isCapsDown := true
 	KeyWait CapsLock
 	isCapsDown := false

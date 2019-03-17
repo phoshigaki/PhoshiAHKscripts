@@ -1,5 +1,5 @@
 ;Spaceを押したとき
-$*Space::
+*Space::
 	if (isSpaceRepeat == true)		;キーリピートしているかどうか
 	{
 		if (A_PriorKey != "Space")		;Space長押し中の他キー押し下げを検出
@@ -17,7 +17,7 @@ $*Space::
 Return
 
 ;Spaceを離したとき
-$*Space up::
+*Space up::
 	Send {Blind}{ShiftUp}		;Shiftをリリース
 	isSpaceRepeat := false
 	if (A_PriorKey == "Space"){		;Space単押しを検出

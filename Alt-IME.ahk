@@ -1,6 +1,6 @@
 #Include .\lib\IME\UTF8\IME.ahk
 
-$*~LAlt::Send {Blind}{vk07}
+*~LAlt::Send {Blind}{vk07}
 
 LAlt up::
     if (A_PriorKey == "LAlt")
@@ -9,7 +9,7 @@ LAlt up::
     }
 Return
 
-$*~RAlt::Send {Blind}{vk07}
+*~RAlt::Send {Blind}{vk07}
 
 RAlt up::
     if (A_PriorKey == "RAlt")

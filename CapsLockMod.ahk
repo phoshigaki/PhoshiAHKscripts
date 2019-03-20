@@ -7,9 +7,6 @@
 	isCapsDown := false
 Return
 
-#If isCapsDown == false
-
-
 #If isCapsDown == true		;以下のスクリプトはCapsLock押し下げ時のみ
 e::Suspend, Off ;Enable hotkeys
 d::Suspend, On ;Disable hotkeys

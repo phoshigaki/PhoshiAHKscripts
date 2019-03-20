@@ -1,3 +1,4 @@
+#InstallKeybdHook
 ;Spaceを押したとき
 *Space::
 	if (isSpaceRepeat == true)		;キーリピートしているかどうか

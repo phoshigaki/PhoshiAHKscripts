@@ -1,9 +1,13 @@
+#InstallKeybdHook
 ;CapsLockの押し下げを検知
 *CapsLock::
 	isCapsDown := true
 	KeyWait CapsLock
 	isCapsDown := false
 Return
+
+CapsLock & e::Suspend, On
+Capslock & d::Suspend, Off
 
 #If isCapsDown == true		;以下のスクリプトはCapsLock押し下げ時のみ
 

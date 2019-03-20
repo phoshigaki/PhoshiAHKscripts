@@ -6,9 +6,6 @@
 	isCapsDown := false
 Return
 
-CapsLock & e::Suspend, Off ;Enable hotkeys
-Capslock & d::Suspend, On ;Disable hotkeys
-
 #If isCapsDown == true		;以下のスクリプトはCapsLock押し下げ時のみ
 e::Suspend, Off ;Enable hotkeys
 d::Suspend, On ;Disable hotkeys

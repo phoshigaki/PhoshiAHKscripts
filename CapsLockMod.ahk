@@ -11,8 +11,10 @@ Return
 e::Suspend, Off ;Enable hotkeys
 d::Suspend, On ;Disable hotkeys
 
-;CapsLock
-c::sc03A
+c::sc03A ;CapsLock
+
+q::ExitApp
+z::+^#b
 
 ;方向キー
 i::Up
